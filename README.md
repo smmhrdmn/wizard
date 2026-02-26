@@ -4,6 +4,14 @@ Design intelligence framework for AI coding tools. Steers AI toward distinctive,
 
 Wizard provides a skill, reference library, and workflow vocabulary that guides token-first design, visual iteration, and design system governance across any frontend project.
 
+## Background
+
+Wizard builds on [Anthropic's frontend-design skill](https://github.com/anthropics/skills/tree/main/skills/frontend-design) and [Impeccable](https://github.com/pbakaus/impeccable) by Paul Bakaus.
+
+Every guideline was audited against NNGroup, W3C, WCAG 2.2, Material Design 3, Baymard Institute, and primary research sources. Claims that weren't supported by evidence were revised or removed, overly absolute advice was narrowed to specific contexts, and gaps in governance and design systems were filled. The result is opinionated and research-grounded.
+
+Wizard also adds orchestration (a session router and batch processor), removes subjective "vibe knob" commands in favor of design intelligence, and restructures delivery as focused reference files for efficient context usage.
+
 ## Install
 
 ### Claude Code (skill + 17 slash commands)
@@ -41,19 +49,6 @@ Ask your agent to use the wizard skill, or invoke it directly in Claude Code wit
 
 Run **teach-wizard** first on any new project — it scans your codebase to learn your tokens, framework, and patterns.
 
-## Structure
-
-```
-wizard/
-├── skills/wizard/              # Agent Skills spec (npx skills add)
-│   ├── SKILL.md                # Core philosophy + domain guidance
-│   └── references/             # 25 reference files (8 domain + 17 workflows)
-├── .claude/                    # Claude Code plugin
-│   ├── commands/               # 17 slash commands
-│   └── skills/wizard/          # Skill + references
-└── .claude-plugin/             # Plugin marketplace metadata
-```
-
 ## What it does
 
 **The skill** loads as persistent context during design work. It establishes token-first philosophy, surface layering, the AI Slop Test, and implementation principles. Eight reference files provide deep guidance on typography, color, spatial design, motion, interaction, responsive, UX writing, and design systems.
@@ -69,7 +64,4 @@ wizard/
 
 ## License
 
-Apache 2.0. See [LICENSE](LICENSE).
-
-Wizard builds on [Anthropic's frontend-design skill](https://github.com/anthropics/skills/tree/main/skills/frontend-design) and was inspired by [Impeccable](https://github.com/pbakaus/impeccable) by Paul Bakaus. See [NOTICE.md](NOTICE.md) for attribution.
-
+Apache 2.0. See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md) for attribution.
