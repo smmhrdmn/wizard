@@ -6,7 +6,7 @@ Wizard provides a skill, reference library, and workflow vocabulary that guides 
 
 ## Background
 
-Wizard builds on [Anthropic's frontend-design skill](https://github.com/anthropics/skills/tree/main/skills/frontend-design) and [Impeccable](https://github.com/pbakaus/impeccable) by Paul Bakaus.
+Wizard builds on [Anthropic's frontend-design skill](https://github.com/anthropics/skills/tree/main/skills/frontend-design), [Impeccable](https://github.com/pbakaus/impeccable) by Paul Bakaus, [RAMS](https://www.rams.ai) by HSLA0001, and [UI Skills](https://github.com/ibelick/ui-skills) by ibelick.
 
 Every guideline was audited against NNGroup, W3C, WCAG 2.2, Material Design 3, Baymard Institute, and primary research sources. Claims that weren't supported by evidence were revised or removed, overly absolute advice was narrowed to specific contexts, and gaps in governance and design systems were filled. The result is opinionated and research-grounded.
 
