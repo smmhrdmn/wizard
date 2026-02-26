@@ -62,3 +62,9 @@ wizard/
 - **Design-in-browser.** Assumes you're looking at the thing and iterating visually.
 - **Governance.** When to add vs reuse. When a pattern earns promotion. How to detect drift.
 
+## License
+
+Apache 2.0. See [LICENSE](LICENSE).
+
+Wizard builds on [Anthropic's frontend-design skill](https://github.com/anthropics/skills/tree/main/skills/frontend-design) and was inspired by [Impeccable](https://github.com/pbakaus/impeccable) by Paul Bakaus. See [NOTICE.md](NOTICE.md) for attribution.
+
