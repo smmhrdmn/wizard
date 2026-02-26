@@ -1,0 +1,9 @@
+{
+  "name": "wizard",
+  "description": "Design intelligence for building distinctive, production-grade interfaces. 1 skill, 17 commands, and curated guidance for token-first design, visual iteration, and design system governance.",
+  "version": "1.0.0",
+  "author": {
+    "name": "smmhrdmn"
+  },
+  "repository": "https://github.com/smmhrdmn/wizard"
+}

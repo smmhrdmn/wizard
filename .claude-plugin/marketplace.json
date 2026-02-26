@@ -1,0 +1,23 @@
+{
+  "name": "wizard",
+  "metadata": {
+    "description": "Design intelligence for AI coding tools. 1 skill, 17 commands, and curated guidance for distinctive, production-grade interfaces."
+  },
+  "owner": {
+    "name": "smmhrdmn"
+  },
+  "plugins": [
+    {
+      "name": "wizard",
+      "source": "./",
+      "description": "Design intelligence for building distinctive, production-grade interfaces. 1 skill, 17 commands, and curated guidance for token-first design, visual iteration, and design system governance.",
+      "author": {
+        "name": "smmhrdmn"
+      },
+      "category": "design",
+      "tags": ["design", "frontend", "ui", "ux", "skills", "commands"],
+      "commands": "./.claude/commands",
+      "skills": "./.claude/skills"
+    }
+  ]
+}
