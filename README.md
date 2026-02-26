@@ -13,7 +13,12 @@ Wizard provides a skill, reference library, and workflow vocabulary that guides 
 /plugin install wizard@wizard
 ```
 
-This installs the Wizard skill and all 17 `/commands`.
+If you get an SSH error, use the HTTPS URL instead:
+
+```
+/plugin marketplace add https://github.com/smmhrdmn/wizard.git
+/plugin install wizard@wizard
+```
 
 ### All agents (skill only)
 
