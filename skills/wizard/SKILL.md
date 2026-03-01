@@ -223,7 +223,16 @@ Actions:
 
 ## Available Workflows
 
-When this skill is invoked directly, orient the user. Display this banner, then read the project config to understand context and present the available workflows organized by phase. Each workflow has detailed instructions in its reference file — load it when the user requests that workflow.
+When this skill is invoked directly, orient the user:
+
+1. **Read the project context first.** Scan for frontend code (HTML, CSS, JS/TS, components, framework config). Check the project config for a Design Context section.
+
+2. **Adapt based on what you find:**
+   - **No frontend code at all**: Ask the user what they're building. Do not display the full workflow menu — it's not useful without a frontend project to act on.
+   - **Frontend code exists, no design context**: Suggest starting with **teach-wizard** to establish design foundations before other workflows.
+   - **Frontend code with design context**: Display the banner and relevant workflows based on what the user is doing.
+
+3. **Display the banner and workflows** (only when a frontend project is present):
 
 ```
  █████   ███   █████ █████ ███████████   █████████   ███████████   ██████████
@@ -265,7 +274,7 @@ When this skill is invoked directly, orient the user. Display this banner, then 
 **Multiple items?**
 - **[batch](references/batch.md)** — process a list of feedback, bugs, or changes in parallel
 
-Ask the user what they're working on if it's not obvious from context.
+Each workflow has detailed instructions in its reference file — load it when the user requests that workflow.
 
 ---
 
