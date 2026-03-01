@@ -9,7 +9,7 @@ args:
 
 Conduct a two-part review combining accessibility compliance and visual design quality. This is a detailed, technical review that produces specific findings with file:line references and fix suggestions.
 
-**First**: Read the project config for design tokens, component patterns, and accessibility requirements. Then use the frontend-design skill and consult these references:
+**First**: Read the project config for design tokens, component patterns, and accessibility requirements. Then consult these references:
 - **interaction-design** reference for focus management, progressive disclosure, and input handling
 - **color-and-contrast** reference for OKLCH, contrast ratios, and perceptual uniformity
 - **typography** reference for type scales, hierarchy, and fluid sizing

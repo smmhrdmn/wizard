@@ -7,7 +7,7 @@ args:
     required: false
 ---
 
-**First**: Use the frontend-design skill, specifically the [design-systems reference](references/design-systems.md) for token architecture and naming conventions.
+**First**: Consult this skill's [design-systems reference](references/design-systems.md) for token architecture and naming conventions.
 
 Scan the project's design tokens. Inventory what exists, find what's missing, and report drift.
 

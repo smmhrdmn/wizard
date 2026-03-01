@@ -24,7 +24,7 @@ Before extracting anything, map the existing system:
 - **Import conventions**: How are shared components imported and consumed?
 - **Documentation patterns**: Is there a Storybook, component catalog, or docs pattern?
 
-**CRITICAL**: If no design system or shared component location exists, STOP and call the AskUserQuestionTool to clarify. before creating one. Understand where things should go and what structure is preferred.
+**CRITICAL**: If no design system or shared component location exists, stop and ask the user for clarification before creating one. Understand where things should go and what structure is preferred.
 
 ## 3. Identify Extraction Candidates
 

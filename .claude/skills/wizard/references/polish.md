@@ -7,7 +7,7 @@ args:
     required: false
 ---
 
-**First**: Use the frontend-design skill for design principles, anti-patterns, and domain references.
+**First**: Consult this skill's design principles, anti-patterns, and domain references.
 
 Perform the final quality pass before shipping. This is thorough inspection and targeted fixes — not restructuring, not redesign.
 

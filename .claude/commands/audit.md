@@ -9,7 +9,7 @@ args:
 
 Run a systematic diagnostic scan and generate a severity-ranked report. This is a read-only audit — document issues for other commands to fix.
 
-**First**: Read the project config for design tokens, component patterns, and architectural decisions. Then use the frontend-design skill for design principles, anti-patterns, and domain references.
+**First**: Read the project config for design tokens, component patterns, and architectural decisions. Then consult this skill's design principles, anti-patterns, and domain references.
 
 ## Diagnostic Scan
 
@@ -43,7 +43,7 @@ Scan the relevant files (HTML, CSS, JS/TS, components) across six dimensions:
 
 ### 4. Anti-Patterns
 
-Run the **AI Slop Test** from the frontend-design skill. Check for every DON'T in the skill:
+Run the **AI Slop Test** from this skill. Check for every DON'T listed above:
 
 - **Layout**: Identical card grids (icon + heading + description, 3-column repeat), cards nested inside cards
 - **Color**: Dark mode with cyan/purple accents, gradient text on headings, neon glows, pure black/white, gray text on colored backgrounds

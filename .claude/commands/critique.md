@@ -9,9 +9,9 @@ args:
 
 Conduct a holistic design critique. This is not a checklist or a code scan — it is a design review. Think like a senior designer sitting next to a colleague, looking at their work, and giving honest, specific, constructive feedback.
 
-**First**: Read the project config to understand the product, its audience, and its design direction. Then use the frontend-design skill for design principles and the AI Slop Test.
+**First**: Read the project config to understand the product, its audience, and its design direction. Then consult this skill's design principles and the AI Slop Test.
 
-STOP and call the AskUserQuestionTool to clarify. what the intended audience and purpose of the interface is, if it is not clear from the config file or the interface itself.
+Stop and ask the user what the intended audience and purpose of the interface is, if it is not clear from the config file or the interface itself.
 
 ---
 

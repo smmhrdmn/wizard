@@ -1,6 +1,10 @@
 ---
 name: wizard
-description: Design intelligence for building distinctive, production-grade interfaces. Guides token-first design, visual iteration, and design system governance. Use when building UI components, pages, or applications.
+description: Design intelligence for building distinctive, production-grade interfaces. Guides token-first design, visual iteration, and design system governance. Use when building UI components, pages, or applications, when asked to "design this", "make this look good", "audit the UI", "check design tokens", "add animations", or "polish before shipping". Not for backend logic, API design, or data modeling.
+license: Apache-2.0
+metadata:
+  author: smmhrdmn
+  version: 1.0.0
 ---
 
 # Wizard — Design Intelligence
@@ -189,6 +193,34 @@ The fix is not to avoid all of these individually — it is to make *intentional
 
 ---
 
+## Examples
+
+**Example 1: Starting a new project**
+User says: "I'm building a dashboard for a fintech app"
+
+Actions:
+1. Run **teach-wizard** to scan the codebase and establish design tokens
+2. Route to the **design** workflow in Explore phase
+3. Ask about audience and design posture before building
+
+**Example 2: Improving existing UI**
+User says: "This page looks generic, make it better"
+
+Actions:
+1. Read the project config for existing tokens and design context
+2. Run the **AI Slop Test** to identify specific tells
+3. Suggest targeted fixes via **critique** then **normalize**
+
+**Example 3: Pre-launch quality check**
+User says: "We're shipping tomorrow, what should I check?"
+
+Actions:
+1. Run **audit** for a full diagnostic scan
+2. Process findings with **batch** for parallel fixes
+3. Finish with **deploy-check** as the final gate
+
+---
+
 ## Available Workflows
 
 When this skill is invoked directly, orient the user. Display this banner, then read the project config to understand context and present the available workflows organized by phase. Each workflow has detailed instructions in its reference file — load it when the user requests that workflow.
@@ -234,3 +266,23 @@ When this skill is invoked directly, orient the user. Display this banner, then 
 - **[batch](references/batch.md)** — process a list of feedback, bugs, or changes in parallel
 
 Ask the user what they're working on if it's not obvious from context.
+
+---
+
+## Troubleshooting
+
+**Wizard generates generic-looking output**
+Cause: No design context established for the project.
+Fix: Run the **teach-wizard** workflow first. It scans the codebase for tokens and conventions, then writes a design context section to the project config.
+
+**Audit produces too many findings**
+Cause: Normal for projects without an established design system.
+Fix: Use the **batch** workflow to process findings in parallel groups of 2-3. Start with Critical findings, then work through Serious/Moderate/Minor in subsequent batches.
+
+**Animations feel wrong or excessive**
+Cause: Missing motion tokens or incorrect easing.
+Fix: Check for existing motion tokens in the project. If none exist, run **tokens** to diagnose, then **animate** to establish a motion system. Verify `prefers-reduced-motion` is respected.
+
+**Design system drift keeps recurring**
+Cause: New code is bypassing existing tokens.
+Fix: Run **tokens** to inventory the current system, then **normalize** to align drifted code. Consider adding linting rules to catch hardcoded values.

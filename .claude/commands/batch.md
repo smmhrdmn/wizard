@@ -50,7 +50,7 @@ Wait for user approval before executing. If they say "go" or "do it", proceed.
 For each batch, launch sub-agents using the Task tool. Each sub-agent must:
 
 1. Read the target file(s)
-2. Check the project's the project config for design tokens and conventions
+2. Check the project config for design tokens and conventions
 3. Make the fix using the project's design system — never introduce hardcoded values, generic colors, or patterns that bypass existing tokens
 4. Keep changes minimal — fix what's listed, don't refactor surrounding code
 5. Report: what changed, which file, line numbers

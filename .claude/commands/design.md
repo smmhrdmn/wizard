@@ -11,13 +11,13 @@ Start a design session. Determine the current phase, suggest the right Wizard co
 
 ## Step 1 — Read project context
 
-Read the project's the project config to learn:
+Read the project config to learn:
 - Design tokens, component patterns, brand guidelines
 - What dev tools are available (DialKit, Agentation, Annotate, playground)
 - Build/lint/test infrastructure
 - Existing design decisions and constraints
 
-If no the project config exists or it lacks design context, note that the **teach-wizard** workflow can establish a design foundation for the project.
+If no project config exists or it lacks design context, note that the **teach-wizard** workflow can establish a design foundation for the project.
 
 ## Step 2 — Determine the phase
 

@@ -32,7 +32,7 @@ Before normalizing anything, discover what already exists. Scan the codebase for
 
 → *Reference: [design-systems](references/design-systems.md) for token architecture and naming conventions.*
 
-**CRITICAL**: If the design system is unclear, incomplete, or absent — STOP and call the AskUserQuestionTool to clarify. before proceeding. Do not invent a system.
+**CRITICAL**: If the design system is unclear, incomplete, or absent — stop and ask the user for clarification before proceeding. Do not invent a system.
 
 ## 3. Assess Current State
 

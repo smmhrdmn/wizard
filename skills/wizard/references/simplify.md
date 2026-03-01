@@ -22,8 +22,8 @@ You cannot simplify well without knowing what matters. You need:
 
 Attempt to gather these from the current thread or codebase.
 
-1. If you infer answers from existing design and functionality, you MUST STOP and STOP and call the AskUserQuestionTool to clarify. whether your inferences are correct.
-2. If you cannot infer with confidence, you MUST STOP and call the AskUserQuestionTool to clarify. before proceeding.
+1. If you infer answers from existing design and functionality, you MUST stop and ask the user whether your inferences are correct.
+2. If you cannot infer with confidence, you MUST stop and ask the user for clarification before proceeding.
 
 Simplifying the wrong things destroys usability.
 
@@ -61,7 +61,7 @@ Common tells to remove:
 - Gradient text for "impact"
 - Rounded rectangles with generic drop shadows as the default container
 
-→ *Reference: The AI Slop Test from the frontend-design skill.*
+→ *Reference: The AI Slop Test from this skill.*
 
 ## 4. Find the Essence
 

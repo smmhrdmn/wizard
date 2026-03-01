@@ -62,7 +62,7 @@ Observations:
 
 ## Step 3: Ask Focused Questions
 
-STOP and call the AskUserQuestionTool to clarify. Ask only about what you could not infer from the codebase. Ask one question at a time.
+Stop and ask the user to clarify. Ask only about what you could not infer from the codebase. Ask one question at a time.
 
 ### Question 1: Users & Purpose
 *Skip if clearly documented in README or project docs.*

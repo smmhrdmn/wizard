@@ -9,7 +9,7 @@ args:
 
 Run a non-destructive pre-deploy check on the current project. This is read-only — no files are modified.
 
-Read the project's the project config first to understand the build setup, design tokens, and any project-specific conventions.
+Read the project config first to understand the build setup, design tokens, and any project-specific conventions.
 
 ## Checks
 

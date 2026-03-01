@@ -7,7 +7,7 @@ args:
     required: false
 ---
 
-**First**: Use the frontend-design skill for performance-related design guidance.
+**First**: Consult this skill's design principles for performance-related guidance.
 
 Systematic performance optimization. Measure before changing anything — premature optimization wastes time. Fix the biggest bottleneck first.
 
