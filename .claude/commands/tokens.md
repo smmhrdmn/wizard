@@ -11,6 +11,8 @@ args:
 
 Scan the project's design tokens. Inventory what exists, find what's missing, and report drift.
 
+**Efficiency**: Read all relevant files in parallel — batch CSS files, config files, and component files into as few tool calls as possible. Do not read files one at a time.
+
 ## Step 1: Scan Token Sources
 
 Find all design token definitions in the project:

@@ -11,7 +11,7 @@ Conduct a holistic design critique. This is not a checklist or a code scan — i
 
 **First**: Read the project config to understand the product, its audience, and its design direction. Then consult this skill's design principles and the AI Slop Test.
 
-Stop and ask the user what the intended audience and purpose of the interface is, if it is not clear from the config file or the interface itself.
+If the intended audience and purpose are not clear from the config file or the interface itself, state your best inference and note the assumption — do not stop to ask. Only ask for clarification if there is genuinely no frontend code to analyze.
 
 ---
 
